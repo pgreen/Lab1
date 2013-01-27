@@ -5,6 +5,15 @@ h1
     font-size:72px;
     text-align: center;
 }
+
+#block
+{
+  font-align: center;
+  background-color: #93ccc6;
+  height: 400px;
+  width: 800px;
+}
+
 p
 {
   font-family:'Open Sans Condensed', sans-serif;

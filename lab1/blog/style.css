@@ -8,23 +8,23 @@ body, html
 
 #container
 {
-  width: 800px;
+  width: 900px;
   margin: 0;
 }
 #header
 {
+  position: relative;
   text-align: center;
   background: #36d7d7;
-  margin: 0;
-  padding: 0;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+  font-family: 'Open Sans Condensed', serif;  
+  font-size:28px;
 }
 #navbar
 {
-  margin: 0;
-  padding: 0;
-  height: 30px;
+  position: relative;
+  height: 50px;
   background: #000000;
 }
 
@@ -33,16 +33,59 @@ body, html
   display: inline;
   margin-left: 20px;
   color: #ffffff;
+  font-family: 'Open Sans Condensed', serif;  
+  font-size:28px;
+  
 }
 
 #column1
 {
   float: left;
 }
+h2
+{
+  font-family: 'Open Sans Condensed', serif;
+  font-size: 28px;
+  margin-left: 20px
+}
+
+p
+{
+  font-family: 'Open Sans Condensed', serif;
+  font-size: 20px;
+  margin-left: 20px
+}
+
 #column2
 {
   float: right;
   width:300px;
   background: #71a9a9;
 }
-
+#column2 h2
+{
+  font-family: 'Open Sans Condensed', serif;
+  font-size: 28px;
+  color: #ff0000;
+}
+#column2 ul li
+{
+  font-family: 'Open Sans Condensed', serif;
+  font-size: 20px;
+  list-style-type: none;
+  color: #ffffff;
+}
+#column2 h3
+{
+  margin-left: 20px;
+  font-family: 'Open Sans Condensed', serif;
+  font-size: 18px;
+  color: #ff0000;
+}
+#column2 p
+{
+  font-family: 'Open Sans Condensed', serif;
+  font-size: 16px;
+  list-style-type: none;
+  color: #ffffff;
+}

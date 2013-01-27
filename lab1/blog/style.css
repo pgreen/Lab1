@@ -1,0 +1,48 @@
+body, html
+{
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #e0ffff;
+}
+
+#container
+{
+  width: 800px;
+  margin: 0;
+}
+#header
+{
+  text-align: center;
+  background: #36d7d7;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#navbar
+{
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  background: #000000;
+}
+
+#navbar u1 li
+{
+  display: inline;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+#column1
+{
+  float: left;
+}
+#column2
+{
+  float: right;
+  width:300px;
+  background: #71a9a9;
+}
+

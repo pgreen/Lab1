@@ -8,8 +8,8 @@ body, html
 
 #container
 {
-  width: 1000px;
-  margin: 0;
+  max-width: 960px;
+  margin-auto;
 }
 #header
 {
@@ -65,7 +65,7 @@ body, html
 
 #column2
 {
-  float: right;
+  float: left;
   width:300px;
   background: #71a9a9;
 }

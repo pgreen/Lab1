@@ -8,8 +8,8 @@ body, html
 
 #container
 {
-  max-width: 960px;
-  margin-auto;
+  width: 960px;
+  margin: 0 auto;
 }
 #header
 {
@@ -36,13 +36,13 @@ body, html
   font-size:28px;
 }
 
-#column1
+#content
 {
   float: left;
-  width: 700px;
+  width: 720px;
 }
 
-#column1 h2
+#content h2
 {
   font-family: 'Open Sans Condensed', serif;
   font-size: 28px;
@@ -50,33 +50,34 @@ body, html
   margin-bottom: 0;
 }
 
-#column1 h3
+#content h3
 {
   font-family: 'Open Sans Condensed', serif;
   font-size: 18px;
   margin-left: 20px
 }
-#column1 p
+#content p
 {
   font-family: 'Open Sans Condensed', serif;
   font-size: 16px;
-  margin-left: 20px
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-#column2
+#navigation
 {
-  float: left;
-  width:300px;
+  float: right;
+  width:240px;
   background: #71a9a9;
 }
-#column2 h2
+#navigation h2
 {
   font-family: 'Open Sans Condensed', serif;
   font-size: 28px;
   color: #ff0000;
   margin-left: 20px
 }
-#column2 ul li
+#navigation ul li
 {
   margin-left: 20px
   font-family: 'Open Sans Condensed', serif;
@@ -84,16 +85,17 @@ body, html
   list-style-type: none;
   color: #ffffff;
 }
-#column2 h3
+#navigation h3
 {
   margin-left: 20px;
   font-family: 'Open Sans Condensed', serif;
   font-size: 18px;
   color: #ff0000;
 }
-#column2 p
+#navigation p
 {
   margin-left: 20px;
+  margin-right: 20px;
   font-family: 'Open Sans Condensed', serif;
   font-size: 16px;
   color: #ffffff;
